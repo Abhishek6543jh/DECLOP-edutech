@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 import { TECollapse, TERipple } from "tw-elements-react";
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar"; 
 import CourseCard from "./components/CourseCard";
+import StickyNavbar from "./components/Navbar";
+import AboutSection from "./components/AboutSec";
+
 export default function App() {
 
   return (
   <React.StrictMode>
-     
-     <CourseCard/>
+   <AboutSection/>
+    <StickyNavbar/>
+    <Hero />
+    
   </React.StrictMode>
    
   );
