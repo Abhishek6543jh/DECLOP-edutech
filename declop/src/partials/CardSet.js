@@ -8,12 +8,13 @@ function CardSet() {
     {
       title: 'The Ultimate JavaScript Course',
       description: 'The JavaScript course for everyone! Master JavaScript with projects, challenges, and theory.',
-      isFree: true,
+      isAvailable: true,
+      
     },
     {
       title: 'Advanced React Masterclass',
       description: 'Take your React skills to the next level with this advanced course.',
-      isFree: false,
+      isAvailable: false,
     },
     // Add more card data here
   ];

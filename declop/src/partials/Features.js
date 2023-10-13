@@ -42,7 +42,7 @@ function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 text-2xl mb-3 text-blue-500">This is why!</h3>
+                <h3 className="h3 text-l mb-3 text-gray-600">why only we,rather than others?, cause we are the only one who provides equally opportunity with out any degree ,experience or even skill we hire you than we teach you</h3>
                 
               </div>
               {/* Tabs buttons */}
@@ -54,7 +54,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Declop</div>
-                    <div className="text-gray-600"></div>
+                    <div className="text-gray-600">the word declop itself mean DE- developer CL- cloud OP - operator we never leave you and always available to adapt you</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

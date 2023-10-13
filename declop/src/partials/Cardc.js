@@ -1,6 +1,6 @@
 import React from "react";
 
-function Cardc({ title, description, imageSrc, isFree }) {
+function Cardc({ title, description, imageSrc, isAvailable}) {
   return (
     <div className="max-w-md rounded-lg overflow-hidden shadow-lg bg-white transition-transform transform hover:scale-105">
       {/* Image */}
@@ -28,16 +28,16 @@ function Cardc({ title, description, imageSrc, isFree }) {
         </div>
         {/* Card footer */}
         <div className="flex justify-between items-center">
-          {isFree ? (
-            <span className="text-green-500 font-semibold">Free</span>
-          ) : (
-            <span className="text-indigo-500 font-semibold">Paid</span>
-          )}
-          <a className="font-semibold text-sm inline-flex items-center justify-center px-4 py-2 border rounded-lg leading-5 shadow-sm transition-transform transform hover:scale-105 transition duration-300 ease-in-out bg-indigo-500 text-white focus:outline-none focus-visible:ring-2 hover:bg-indigo-600"
+          {isAvailable ? (
+            <a className="font-semibold text-sm inline-flex items-center justify-center px-4 py-2 border rounded-lg leading-5 shadow-sm transition-transform transform hover:scale-105 transition duration-300 ease-in-out bg-indigo-500 text-white focus:outline-none focus-visible:ring-2 hover:bg-indigo-600"
             href="#0"
           >
-            Apply Now
+          Enroll
           </a>
+          ) : (
+            <span className="text-indigo-500 font-semibold">SOON</span>
+          )}
+         
         </div>
       </div>
     </div>

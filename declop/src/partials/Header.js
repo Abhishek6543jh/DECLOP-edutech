@@ -8,16 +8,16 @@ function Header() {
   // detect whether the user has scrolled the page down by 10px 
   useEffect(() => {
     const scrollHandler = () => {
-      window.pageYOffset > 10 ? setTop(false) : setTop(true)
+      window.pageYOffset > 10 ? setTop(false) : setTop(true);
     };
     window.addEventListener('scroll', scrollHandler);
     return () => window.removeEventListener('scroll', scrollHandler);
   }, [top]);  
 
   return (
-    <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top && 'bg-white blur shadow-lg'}`}>
+    <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${top ? '' : 'bg-white shadow-lg'}`}>
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify between h-16 md:h-20">
 
           {/* Site branding with custom image URL */}
           <div className="flex-shrink-0 mr-4">
@@ -38,7 +38,7 @@ function Header() {
                 <Link to="/signin" className="font-medium text-blue-600 hover:text-blue-800 px-4 py-2 flex items-center transition duration-300 ease-in-out border border-blue-600 rounded-md">Sign in</Link>
               </li>
               <li>
-                <Link to="/signup" className="btn-sm bg-gradient-to-r from-orange-500 to-orange-400 text-white hover:from-orange-600 hover:to-orange-500 ml-3 px-4 py-2 flex items-center transition duration-300 ease-in-out rounded-md">
+                <Link to="/signup" className="btn-sm bg-blue-500 text-white ml-3 px-4 py-2 flex items-center transition duration-300 ease-in-out rounded-md">
                   <span>Sign up</span>
                   <svg className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />

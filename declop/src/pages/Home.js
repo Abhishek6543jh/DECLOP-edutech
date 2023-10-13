@@ -1,13 +1,9 @@
 import React from 'https://cdn.skypack.dev/react'; 
-
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import FeaturesHome from '../partials/Features';
-import FeaturesBlocks from '../partials/CardSet';
 import Testimonials from '../partials/Testimonials';
-import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
-import CardCrs from '../partials/Cardc';
 import CardSet from '../partials/CardSet';
 
 function Home() {
@@ -25,7 +21,7 @@ function Home() {
         <FeaturesHome />
         <CardSet />
         <Testimonials />
-        <Newsletter />
+      
 
       </main>
 
