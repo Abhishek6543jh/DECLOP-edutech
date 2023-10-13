@@ -1,7 +1,6 @@
 import React from 'https://cdn.skypack.dev/react'; 
 import ReactDOM from 'https://cdn.skypack.dev/react-dom';
 import { BrowserRouter as Router } from "https://cdn.skypack.dev/react-router-dom@5.3.0";
-
 import App from './App.js';
 
 // import * as serviceWorker from './serviceWorker';

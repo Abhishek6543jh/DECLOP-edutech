@@ -19,6 +19,7 @@ function CardSet() {
   ];
 
   return (
+    <div id="courses">
     <div className="p-4">
       <div className="text-center">
         <Fade bottom>
@@ -32,6 +33,7 @@ function CardSet() {
           </Fade>
         ))}
       </div>
+    </div>
     </div>
   );
 }

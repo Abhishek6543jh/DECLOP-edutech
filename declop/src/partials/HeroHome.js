@@ -32,16 +32,16 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-7xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Make your website <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">wonderful</span></h1>
+            <h1 className="text-7xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Become an <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-orange-500">#Declopguy</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+              <p className="text-2xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Declop is an IT based company but, we also educates people  who are very talented from mega cities to micro villages of india remarking them as @DeclopGuy</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                <a className="btn bg-gradient-to-r from-orange-500 to-orange-400 text-white hover:from-orange-600 hover:to-orange-500 w-full mb-6 sm:w-auto sm:mb-0 px-4 py-2 rounded-md text-center transition duration-300 ease-in-out" href="#0">Explore courses</a>
+                <a className="btn bg-gradient-to-r from-orange-500 to-orange-400 text-white hover:from-orange-600 hover:to-orange-500 w-full mb-6 sm:w-auto sm:mb-0 px-4 py-2 rounded-md text-center transition duration-300 ease-in-out" href="#courses">Start now</a>
 
                 </div>
                 <div>
-                <a className="btn bg-gradient-to-r from-blue-500 to-teal-400 text-white hover:from-blue-600 hover:to-teal-500 w-full sm:w-auto sm:ml-4 px-4 py-2 rounded-md text-center transition duration-300 ease-in-out" href="#about">Learn more</a>
+                <a className="btn bg-gradient-to-r from-blue-500 to-blue-400 text-white hover:from-blue-600 hover:to-teal-500 w-full sm:w-auto sm:ml-4 px-4 py-2 rounded-md text-center transition duration-300 ease-in-out" href="#about">Learn more</a>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ function HeroHome() {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/kmM6mqvnxcs?start=18&controls=1"
+              src="https://www.youtube.com/embed/kmM6mqvnxcs?start=18&controls=0"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
