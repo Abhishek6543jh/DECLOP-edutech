@@ -82,6 +82,7 @@ function Features() {
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
+                
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">USE #DECLOPGUY</div>
                     <div className="text-gray-600">why do you want to tag us or use our hastag. since, there are lot of engineers and graduates in this world, by using  declop as your graduate/internship surename it puts you out of the crowd and give's you unfair advantage which others won't get in their resume</div>
