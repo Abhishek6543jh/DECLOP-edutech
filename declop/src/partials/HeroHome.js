@@ -86,15 +86,7 @@ function HeroHome() {
             <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
             <div className="flex flex-col justify-center">
             {/* Embedded YouTube video */}
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/kmM6mqvnxcs?start=18&controls=0"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1j3k4cowBs4?si=5e-7nYVhfcMcRvSJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
           </div>
             
